@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enhanced Form</title>
+  </head>
+  <body>
+   <section>
+    <d1>
+      <dt>Real Life</dt>
+      <dd>Enhanced Form</dd>
+      <dt>Fields</dt>
+      <dd>
+        <ul>
+          <li>Create a form that includes the following input types: text, email, password, number, date, color, and URL.</li>
+          <li>Add appropriate labels for each input field.</li>
+          <li>Implement validation attributes such as required, minlength, maxlength, pattern (for text), min and max (for number), and title (for additional information).</li>
+          
+        </ul>
+      </dd>
+    </d1>
+   </section>
+   <section>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Criteria</th>
+          <th>Yes</th>
+          <th>No</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Form includes all specified input types</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Each input field has an appropriate label</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Validation attributes are correctly implemented</td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tbody>
+    </table>
+   </section>
+   <section>
+    <video controls>
+      <source src="Hardrock - BOA (NOW ITS US) (Prod BNYX + F1LTHY).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+   </section>
+   <section> 
+    <h1>Enhanced Form</h1>
+    <form action="https://example.com/submit" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required minlength="3" maxlength="15" pattern="[A-Za-z0-9_]+" title="3-15 characters, letters, numbers, and underscores only">
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required minlength="8" title="At least 8 characters">
+      <br><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="18" max="100" required>
+      <br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      <br><br>
+
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" name="color">
+      <br><br>
+
+      <label for="website">Website:</label>
+      <input type="url" id="website" name="website">
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+    </section>
+  </body>
+</html>
